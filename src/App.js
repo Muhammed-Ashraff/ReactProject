@@ -12,6 +12,7 @@ import TernaryOperator from './Components/TernaryOperator';
 import LogicalOperator from './Components/LogicalOperator';
 import ToggleMessage from './Components/ToggleMessage';
 import Form from './Components/Form';
+import List from './Components/List';
 
 
 //app.js is the root component that wrap other component and they must be imported into the app.js
@@ -32,6 +33,8 @@ function App() {
       <LogicalOperator/>
       <ToggleMessage/>
       <Form/>
+      <h1>List</h1>
+      <List/>
       
             
     </div>
