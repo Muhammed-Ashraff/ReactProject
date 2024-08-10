@@ -13,7 +13,7 @@ import LogicalOperator from './Components/LogicalOperator';
 import ToggleMessage from './Components/ToggleMessage';
 import Form from './Components/Form';
 import List from './Components/List';
-
+import UserList from './Components/UserList';
 
 //app.js is the root component that wrap other component and they must be imported into the app.js
 function App() {
@@ -35,6 +35,9 @@ function App() {
       <Form/>
       <h1>List</h1>
       <List/>
+      <h1>Users List</h1>
+      <UserList/>
+
       
             
     </div>
